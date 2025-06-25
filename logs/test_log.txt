@@ -1,0 +1,50 @@
+<hostname>:~/BowlingGame/build$ ./test
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+[==========] Running 20 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 20 tests from BowlingGameTest
+[ RUN      ] BowlingGameTest.ScoreStartsAtZero
+[       OK ] BowlingGameTest.ScoreStartsAtZero (0 ms)
+[ RUN      ] BowlingGameTest.SingleRollAddsScore
+[       OK ] BowlingGameTest.SingleRollAddsScore (0 ms)
+[ RUN      ] BowlingGameTest.TwoRollsInFrame
+[       OK ] BowlingGameTest.TwoRollsInFrame (0 ms)
+[ RUN      ] BowlingGameTest.InvalidNegativePinsThrows
+[       OK ] BowlingGameTest.InvalidNegativePinsThrows (0 ms)
+[ RUN      ] BowlingGameTest.InvalidMoreThanTenPinsThrows
+[       OK ] BowlingGameTest.InvalidMoreThanTenPinsThrows (0 ms)
+[ RUN      ] BowlingGameTest.FrameCannotExceedTenPins
+[       OK ] BowlingGameTest.FrameCannotExceedTenPins (0 ms)
+[ RUN      ] BowlingGameTest.SpareGivesNextRollBonus
+[       OK ] BowlingGameTest.SpareGivesNextRollBonus (0 ms)
+[ RUN      ] BowlingGameTest.StrikeGivesTwoRollBonus
+[       OK ] BowlingGameTest.StrikeGivesTwoRollBonus (0 ms)
+[ RUN      ] BowlingGameTest.TwoConsecutiveStrikes
+[       OK ] BowlingGameTest.TwoConsecutiveStrikes (0 ms)
+[ RUN      ] BowlingGameTest.PerfectGameReturns300RawScoreInNewRules
+[       OK ] BowlingGameTest.PerfectGameReturns300RawScoreInNewRules (0 ms)
+[ RUN      ] BowlingGameTest.SpareIn10thAllowsOneMoreRoll
+[       OK ] BowlingGameTest.SpareIn10thAllowsOneMoreRoll (0 ms)
+[ RUN      ] BowlingGameTest.StrikeIn10thAllowsTwoMoreRolls
+[       OK ] BowlingGameTest.StrikeIn10thAllowsTwoMoreRolls (0 ms)
+[ RUN      ] BowlingGameTest.NoSpareOrStrikeIn10thDisallows3rdRoll
+[       OK ] BowlingGameTest.NoSpareOrStrikeIn10thDisallows3rdRoll (0 ms)
+[ RUN      ] BowlingGameTest.CannotRollAfterGameIsComplete
+[       OK ] BowlingGameTest.CannotRollAfterGameIsComplete (0 ms)
+[ RUN      ] BowlingGameTest.CannotExceedThreeRollsIn10thEvenIfAllStrikes
+[       OK ] BowlingGameTest.CannotExceedThreeRollsIn10thEvenIfAllStrikes (0 ms)
+[ RUN      ] BowlingGameTest.Frame10_StrikeThenTwoRolls10PinsAllowed
+[       OK ] BowlingGameTest.Frame10_StrikeThenTwoRolls10PinsAllowed (0 ms)
+[ RUN      ] BowlingGameTest.Frame10_SpareThenOneBonusRollAllowed
+[       OK ] BowlingGameTest.Frame10_SpareThenOneBonusRollAllowed (0 ms)
+[ RUN      ] BowlingGameTest.ScoreCorrectlyWithAllZeros
+[       OK ] BowlingGameTest.ScoreCorrectlyWithAllZeros (0 ms)
+[ RUN      ] BowlingGameTest.ScoreCorrectlyWithAllFours
+[       OK ] BowlingGameTest.ScoreCorrectlyWithAllFours (0 ms)
+[ RUN      ] BowlingGameTest.InvalidRollInFinalFrame
+[       OK ] BowlingGameTest.InvalidRollInFinalFrame (0 ms)
+[----------] 20 tests from BowlingGameTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 20 tests.

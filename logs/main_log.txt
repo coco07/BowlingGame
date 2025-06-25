@@ -1,0 +1,38 @@
+<hostname>:~/BowlingGame/build$ ./main 
+Welcome to the Bowling Game.
+Enter player name: Vijay
+Hello, Vijay. Let's begin.
+Enter pins knocked down per roll (0-10):
+Frame #1
+  Roll #1: 10
+Frame #2
+  Roll #1: 10
+Frame #3
+  Roll #1: 10
+Frame #4
+  Roll #1: 5
+  Roll #2: 5
+Frame #5
+  Roll #1: 11
+Invalid roll: Pins must be between 0 and 10.
+  Roll #1: 4
+  Roll #2: 4
+Frame #6
+  Roll #1: 3
+  Roll #2: 3
+Frame #7
+  Roll #1: 2
+  Roll #2: 2
+Frame #8
+  Roll #1: 1
+  Roll #2: 1
+Frame #9
+  Roll #1: 0
+  Roll #2: 0
+Frame #10
+  Roll #1: 10
+  Roll #2: 10
+  Roll #3: 10
+Game complete.
+
+Final score for Vijay: 139
